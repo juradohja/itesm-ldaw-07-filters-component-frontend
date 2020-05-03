@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  font-family: 'Nunito Sans', sans-serif;
+  max-width: 100%;
+  margin-top: 3vh;
+  padding: 0 3vw;
 }
 
 .App-logo {
@@ -35,4 +39,29 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+img {
+  display: block;
+}
+
+.range-input input{
+  width: 35%;
+}
+
+.mybtn {
+  width : 13vw;
+  border: 1px solid #1724ab;
+  margin: 1rem;
+  border-radius: 0;
+}
+
+.mybtn-blue {
+  background-color: #1724ab;
+  color : white;
+}
+
+.mybtn-white {
+  background-color: white;
+  color : #1724ab;
 }
