@@ -66,8 +66,8 @@ const RangeFilter = ({title, tooltip, min, max, imageFrom, imageTo, step, state,
             </div>
             <div className={"row mb-2"}>
                 <div className={"col px-0"}>
-                    <img alt={"Minimum"} src={imageFrom} className={"float-left"}/>
-                    <img alt={"Maximum"} src={imageTo} className={"float-right"}/>
+                    <img alt={""} src={imageFrom} className={"float-left"}/>
+                    <img alt={""} src={imageTo} className={"float-right"}/>
                 </div>
             </div>
             <div className={"row mb-2"}>
